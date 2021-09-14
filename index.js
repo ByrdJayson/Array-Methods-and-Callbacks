@@ -9,7 +9,7 @@ fifaData.filter(function(item){
 })
 //(a) Home Team name for 2014 world cup final
 
-//(b) Away Team name for 2014 world cup final
+//(b) Away Team name for 2014 world cup final 
 
 //(c) Home Team goals for 2014 world cup final
 
