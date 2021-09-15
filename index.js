@@ -87,9 +87,14 @@ hint: the strings returned need to exactly match the string in step 4.
  */ 
 //map, item and index
 
-function getWinnersByYear(/* code here */) {
-    /* code here */
-}
+function getWinnersByYear(array, getYearscb, getWinnerscb) {
+    
+    let stringArray = getYearscb().map(function(item, index) {
+        return `In ${getYearscb(['Year'])[index]}, ${getWinnerscb(['Team Name'])[index]} won the world cup!`
+        });
+        return stringArray;
+    }
+
 
 
 
